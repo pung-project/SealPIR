@@ -1,7 +1,11 @@
 # SealPIR: A computational PIR library that achieves low communication costs and high performance.
 
-SealPIR is a (research) library and should not be used in production systems. SealPIR allows a client to download an element from a database stored by a server without revealing which element was downloaded. SealPIR was introduced in our [paper](https://eprint.iacr.org/2017/1142.pdf).
 
+SealPIR is a research library and should not be used in production systems. SealPIR allows a client to download an element from a database stored by a server without revealing which element was downloaded. SealPIR was introduced in our [paper](https://eprint.iacr.org/2017/1142.pdf).
+
+NOTE: this is an older version of SealPIR that was used to produce the evaluation in our [paper](https://eprint.iacr.org/2017/1142.pdf). It is here for purposes of reproducibility. See also: [SealPIR-Rust](https://github.com/pung-project/sealpir-rust), which contains the code to perform all the microbenchmakrs, and [pir-test](https://github.com/pung-project/pir-test), which contains the code to perform throughput and latency experiments.
+
+The latest version of SealPIR is available [here](https://github.com/microsoft/SealPIR).
 
 # Compiling SEAL
 
